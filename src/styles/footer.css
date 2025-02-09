@@ -1,0 +1,44 @@
+.footer {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.footer__infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-details {
+    width: 100%;
+
+    & .title {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: var(--space-8);
+    }
+}
+
+.footer-contacts {
+    display: flex;
+    gap: var(--space-32);
+    width: 100%;
+
+    & strong {
+        display: block;
+    }
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+}
+
+.footer__credits {
+    display: block;
+    padding: var(--space-8);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: var(--font-size-sm);
+}

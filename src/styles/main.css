@@ -51,6 +51,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 h1,
@@ -70,4 +71,10 @@ button {
 .container {
   max-width: 1160px;
   margin: 0 auto;
+}
+
+.container__button {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-32) var(--space-0);
 }

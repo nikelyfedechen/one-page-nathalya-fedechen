@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./src/styles/header.css">
   <link rel="stylesheet" href="./src/styles/navbar.css">
   <link rel="stylesheet" href="./src/styles/buttons.css">
+  <link rel="stylesheet" href="./src/styles/content.css">
+  <link rel="stylesheet" href="./src/styles/footer.css">
 
   <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
 
@@ -44,79 +46,78 @@
       </div>
     </section>
   </header>
-  <section id="servicos">
-    <h2>Serviços</h2>
-    <p>Confira como podemos cuidar do seu sorriso em cada etapa da sua jornada odontológica.</p>
-    <div>
+  <section id="servicos" class="content container">
+    <h2 class="content__title primary">Serviços</h2>
+    <p class="content__paragraph">Confira como podemos cuidar do seu sorriso em cada etapa da sua jornada odontológica.
+    </p>
+    <div class="servicos__cards">
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Clareamento Dentário</h4>
         <p>Restaure o brilho natural dos seus dentes.</p>
       </div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Profilaxia (Limpeza)</h4>
         <p>Limpeza completa para um sorriso mais saudável.</p>
       </div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Implantes</h4>
         <p>Dentes fixos para mais segurança e confiança.</p>
       </div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Extrações</h4>
         <p>Procedimentos para remoção de dentes comprometidos.</p>
       </div>
-    </div>
 
-    <div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Gengivoplastia</h4>
         <p>Remodelagem gengival para um sorriso harmonioso.</p>
       </div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Restauração</h4>
         <p>Reparações estéticas e funcionais.</p>
       </div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Endodontia (Canal)</h4>
         <p>Tratamento eficaz para salvar dentes comprometidos</p>
       </div>
 
-      <div>
+      <div class="card">
         <img src="" alt="">
         <h4>Alinhadores Invisíveis</h4>
         <p>Corrija a posição dos dentes de forma discreta.</p>
       </div>
     </div>
 
-    <div>
-      <button onclick=""><img src="" alt=""> Agendar Consulta</button>
+    <div class="container__button">
+      <button class="button--primary" onclick=""><i class="ph ph-whatsapp-logo"></i> Agendar Consulta</button>
     </div>
 
-    <div>
+    <div class="servicos__protese-dentaria">
       <div>
-        <h3>Prótese dentária</h3>
+        <h3 class="">Prótese dentária</h3>
         <p>Sorrisos completos com próteses confortáveis.</p>
-        <button onclick=""><img src="" alt=""> Agendar Consulta</button>
+        <button class="button--secondary" onclick=""><i class="ph ph-whatsapp-logo"></i> Agendar Consulta</button>
       </div>
       <img src="" alt="">
     </div>
   </section>
-  <section id="sobre">
-    <img src="" alt="">
-    <div>
+  <section id="sobre" class="content container sobre">
+    <img class="image" src="./src/images/image-apresentacao-nathalya-fedechen.JPG" alt="">
+    <div class="text">
       <h3>Olá,</h3>
       <p>
         Eu sou a Dra. Nathalya, apaixonada por ajudar pessoas a conquistarem sorrisos que transbordam felicidade. Cada
@@ -135,56 +136,75 @@
       </p>
     </div>
   </section>
-  <section id="contato">
-    <h2>Vamos Conversar!</h2>
-    <p>Agendar uma consulta é super fácil! Me conta um pouco sobre você e vamos juntos cuidar desse sorriso.</p>
-    <div>
-      <div>
-        <div>
-          <a href="">
-            <img src="" alt="">
-            <p>(85) 99937.1196</p>
-          </a>
+  <section id="contato" class="contato">
+    <div class="content container ">
+
+      <h2 class="content__title secondary">Vamos Conversar!</h2>
+      <p class="content__paragraph">Agendar uma consulta é super fácil! Me conta um pouco sobre você e vamos juntos
+        cuidar
+        desse sorriso.</p>
+      <div class="map-and-contact content">
+        <div class="contact-and-adress">
+          <div>
+            <a class="telefone" href="">
+              <i class="ph ph-whatsapp-logo"></i>
+              <p>(85) 99937.1196</p>
+            </a>
+          </div>
+          <div class="endereco">
+            <i class="ph ph-map-pin"></i>
+            <div>
+              <p><strong>Harmony Medical Center</strong></p>
+              <p>R. Pereira Valente, 1314 - Sala 1803 - Meireles, Fortaleza - CE, 60160-250</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src="" alt="">
-          <p>Harmony Medical Center</p>
-          <p>R. Pereira Valente, 1314 - Sala 1803 - Meireles, Fortaleza - CE, 60160-250</p>
+        <div class="map">
+          <iframe width="100%" height="300px" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=R.+Pereira+Valente%2C+1314+-+Sala+1803+-+Meireles%2C+Fortaleza+-+CE%2C+60160-250&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
         </div>
       </div>
-      <div>
-        <iframe width="100%" height="400px" id="gmap_canvas"
-          src="https://maps.google.com/maps?q=R.+Pereira+Valente%2C+1314+-+Sala+1803+-+Meireles%2C+Fortaleza+-+CE%2C+60160-250&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-        </iframe>
+      <div class="container__button">
+        <button class="button--secondary" onclick=""><i class="ph ph-whatsapp-logo"></i> Agendar Consulta</button>
       </div>
-    </div>
-    <div>
-      <button onclick=""><img src="" alt=""> Agendar Consulta</button>
     </div>
   </section>
-  <footer>
-    <div>
-      <h3>Nathalya Fedechen</h3>
-      <p>CRO CE: 16.317</p>
-    </div>
-    <div>
-      <img src="" alt="">
-      <p>Harmony Medical Center</p>
-      <p>R. Pereira Valente, 1314 - Sala 1803 - Meireles, Fortaleza - CE, 60160-250</p>
-    </div>
-    <div>
-      <div>
-        <img src="" alt="">
-        <p>(85) 99937.1196</p>
+  <footer class="footer content">
+    <div class="container footer__infos">
+      <div class="business-details">
+        <h3 class="title">Nathalya Fedechen</h3>
+        <p>CRO CE: 16.317</p>
       </div>
-      <div>
-        <img src="" alt="">
-        <p>@nathalyafedechen</p>
+      <div class="footer-contacts">
+        <div class="info-box">
+          <strong>Endereço</strong>
+          <div class="endereco">
+            <i class="ph ph-map-pin"></i>
+            <div>
+              <p><strong>Harmony Medical Center</strong></p>
+              <p>R. Pereira Valente, 1314 - Sala 1803 - Meireles, Fortaleza - CE, 60160-250</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-box">
+          <strong>Contato</strong>
+          <div class="telefone">
+            <i class="ph ph-whatsapp-logo"></i>
+            <p>(85) 99937.1196</p>
+          </div>
+          <div class="social-media">
+            <i class="ph ph-instagram-logo"></i>
+            <p>@nathalyafedechen</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
-  <span>Feito com ♥️ por Nikely Fedechen</span>
+  <span class="footer__credits">Feito com ♥️ por
+    <a href="https://www.linkedin.com/in/nikelyfedechen/">Nikely Fedechen</a>
+  </span>
   <script type="module" src="/src/main.ts"></script>
 </body>
 
