@@ -42,6 +42,44 @@
 
 }
 
+.servicos__protese-dentaria {
+    position: relative;
+    background-color: var(--color-gray);
+    border-radius: var(--border-radius-24);
+    padding: var(--space-24);
+    display: flex;
+    justify-content: center;
+
+    & .container-width {
+        max-width: 860px;
+    }
+
+    & .servicos__protese-dentaria--content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-24);
+        max-width: min-content;
+        position: absolute;
+        left: var(--space-72);
+        bottom: calc(-1 * var(--space-40));
+        padding: var(--space-40);
+        background-color: var(--color-primary);
+        color: var(--color-secondary);
+        border-radius: var(--border-radius-24);
+
+        & h3 {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-bold);
+        }
+    }
+
+    & img {
+        display: block;
+        width: 35%;
+        margin-left: auto;
+    }
+}
+
 .sobre {
     display: flex;
     align-items: center;
@@ -91,7 +129,6 @@
             width: 100%;
 
             & iframe {
-
                 border-radius: var(--border-radius-16);
             }
         }
