@@ -1,0 +1,26 @@
+button {
+    display: flex;
+    gap: var(--space-8);
+    align-items: center;
+    cursor: pointer;
+    padding: var(--space-16) var(--space-40);
+    border-radius: var(--border-radius-16);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    white-space: nowrap;
+
+    & i {
+        font-size: var(--font-size-xl);
+    }
+
+    &.button--primary {
+        background-color: var(--color-primary);
+        color: var(--color-secondary);
+    }
+
+    &.button--secondary {
+        background-color: var(--color-secondary);
+        color: var(--color-primary);
+    }
+
+}
