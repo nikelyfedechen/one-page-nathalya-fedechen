@@ -6,9 +6,9 @@
 }
 
 .navbar__logo {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-bold) ;
+    font-weight: var(--font-weight-bold);
     text-decoration: none;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .navbar__link {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-md);
     text-decoration: none;

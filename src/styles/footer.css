@@ -41,4 +41,8 @@
     color: var(--color-secondary);
     text-align: center;
     font-size: var(--font-size-sm);
+
+    & a {
+        color: var(--color-secondary);
+    }
 }
