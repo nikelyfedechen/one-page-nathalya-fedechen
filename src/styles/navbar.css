@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--space-32) var(--space-0);
+    position: relative;
 }
 
 .navbar__logo {
@@ -23,8 +24,19 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-md);
     text-decoration: none;
+}
 
-    &:hover {
-        text-decoration: underline;
+.navbar__link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar__logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__items {
+        display: none;
     }
 }

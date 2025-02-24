@@ -49,6 +49,10 @@
   font-weight: var(--font-weight-regular);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -76,8 +80,8 @@ button {
   margin: 0 auto;
 }
 
-.container__button {
-  display: flex;
-  justify-content: center;
-  padding: var(--space-32) var(--space-0);
+@media (max-width: 768px) {
+  .container {
+    margin: 0 var(--space-24)
+  }
 }
