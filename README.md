@@ -16,7 +16,7 @@ Este projeto foi construído utilizando:
 
 - **HTML**: Para a estrutura da página.
 - **CSS**: Para estilizar a página.
-- **Typescript**: Para toda a lógica da página.
+- **Vite e Typescript**: Para toda a lógica da página.
 
 ---
 
