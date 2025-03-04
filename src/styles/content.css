@@ -199,7 +199,17 @@
 
 .telefone {
     display: flex;
+    align-items: center;
     gap: var(--space-8);
+
+    & a {
+        color: var(--color-primary);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .endereco {
@@ -209,7 +219,17 @@
 
 .social-media {
     display: flex;
+    align-items: center;
     gap: var(--space-8);
+
+    & a {
+        color: var(--color-primary);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 @media(max-width: 768px) {
