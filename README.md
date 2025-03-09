@@ -1,4 +1,4 @@
-<img src="./src/images/thumbnail-nathalya-fedechen-dentista.jpg" alt="Tela inicial do jogo Número Secreto JS" width="100%">
+<img src="./src/images/thumbnail.png" alt="Tela inicial do jogo Número Secreto JS" width="100%">
 
 <h1 align="center" style="font-weight: bold;">One Page - Nathalya Fedechen</h1>
 
